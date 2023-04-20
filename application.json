@@ -1,0 +1,35 @@
+{
+  "pages": [
+    {
+      "id": "Posts",
+      "isDefault": true
+    },
+    {
+      "id": "Feed",
+      "isDefault": false
+    },
+    {
+      "id": "Select Route",
+      "isDefault": false
+    },
+    {
+      "id": "Posts",
+      "isDefault": false
+    }
+  ],
+  "viewMode": false,
+  "appIsExample": false,
+  "unreadCommentThreads": 0,
+  "color": "#C7F3E3",
+  "icon": "cat",
+  "unpublishedAppLayout": {
+    "type": "FLUID"
+  },
+  "unpublishedCustomJSLibs": [],
+  "publishedCustomJSLibs": [],
+  "evaluationVersion": 2,
+  "applicationVersion": 2,
+  "collapseInvisibleWidgets": true,
+  "isManualUpdate": false,
+  "deleted": false
+}

@@ -1,0 +1,325 @@
+{
+  "unpublishedPage": {
+    "name": "Posts",
+    "slug": "posts",
+    "layouts": [
+      {
+        "viewMode": false,
+        "dsl": {
+          "widgetName": "MainContainer",
+          "backgroundColor": "none",
+          "rightColumn": 4896,
+          "snapColumns": 64,
+          "detachFromLayout": true,
+          "widgetId": "0",
+          "topRow": 0,
+          "bottomRow": 380,
+          "containerStyle": "none",
+          "snapRows": 124,
+          "parentRowSpace": 1,
+          "type": "CANVAS_WIDGET",
+          "canExtend": true,
+          "version": 77,
+          "minHeight": 1292,
+          "dynamicTriggerPathList": [],
+          "parentColumnSpace": 1,
+          "dynamicBindingPathList": [],
+          "leftColumn": 0,
+          "children": [
+            {
+              "boxShadow": "none",
+              "widgetName": "Select_Genre",
+              "isFilterable": true,
+              "displayName": "Select",
+              "iconSVG": "/static/media/icon.bd99caba5853ad71e4b3d8daffacb3a2.svg",
+              "labelText": "Select Genre",
+              "searchTags": [
+                "dropdown"
+              ],
+              "topRow": 8,
+              "bottomRow": 15,
+              "parentRowSpace": 10,
+              "labelWidth": 5,
+              "type": "SELECT_WIDGET",
+              "serverSideFiltering": false,
+              "hideCard": false,
+              "defaultOptionValue": "{{ ((options, serverSideFiltering) => ( `None`))(Select_Genre.options, Select_Genre.serverSideFiltering) }}",
+              "animateLoading": true,
+              "parentColumnSpace": 15.0625,
+              "dynamicTriggerPathList": [
+                {
+                  "key": "onOptionChange"
+                }
+              ],
+              "leftColumn": 6,
+              "dynamicBindingPathList": [
+                {
+                  "key": "accentColor"
+                },
+                {
+                  "key": "borderRadius"
+                },
+                {
+                  "key": "options"
+                },
+                {
+                  "key": "defaultOptionValue"
+                }
+              ],
+              "labelPosition": "Top",
+              "options": "{{getGenres.data.map( p => ({label: p.name, value: p.name}))}}",
+              "placeholderText": "Select option",
+              "isDisabled": false,
+              "key": "q6skvezed3",
+              "labelTextSize": "0.875rem",
+              "isRequired": false,
+              "isDeprecated": false,
+              "rightColumn": 26,
+              "dynamicHeight": "FIXED",
+              "widgetId": "wd68365d8z",
+              "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+              "minWidth": 450,
+              "isVisible": true,
+              "version": 1,
+              "parentId": "0",
+              "labelAlignment": "left",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "responsiveBehavior": "fill",
+              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+              "maxDynamicHeight": 9000,
+              "onOptionChange": "{{storeValue('Genre',)}}",
+              "minDynamicHeight": 4
+            },
+            {
+              "boxShadow": "none",
+              "widgetName": "Select_Song1",
+              "isFilterable": true,
+              "displayName": "Select",
+              "iconSVG": "/static/media/icon.bd99caba5853ad71e4b3d8daffacb3a2.svg",
+              "labelText": "Select Song 1",
+              "searchTags": [
+                "dropdown"
+              ],
+              "topRow": 8,
+              "bottomRow": 15,
+              "parentRowSpace": 10,
+              "labelWidth": 5,
+              "type": "SELECT_WIDGET",
+              "serverSideFiltering": false,
+              "hideCard": false,
+              "defaultOptionValue": "{{ ((options, serverSideFiltering) => ( `None`))(Select_Song1.options, Select_Song1.serverSideFiltering) }}",
+              "animateLoading": true,
+              "parentColumnSpace": 15.0625,
+              "dynamicTriggerPathList": [
+                {
+                  "key": "onOptionChange"
+                }
+              ],
+              "leftColumn": 28,
+              "dynamicBindingPathList": [
+                {
+                  "key": "accentColor"
+                },
+                {
+                  "key": "borderRadius"
+                },
+                {
+                  "key": "options"
+                },
+                {
+                  "key": "defaultOptionValue"
+                }
+              ],
+              "labelPosition": "Top",
+              "options": "{{getSongs.data.map( p => ({label: p.name, value: p.name}))}}",
+              "placeholderText": "Select option",
+              "isDisabled": false,
+              "key": "q6skvezed3",
+              "labelTextSize": "0.875rem",
+              "isRequired": false,
+              "isDeprecated": false,
+              "rightColumn": 48,
+              "dynamicHeight": "FIXED",
+              "widgetId": "4uy9qc5qc1",
+              "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+              "minWidth": 450,
+              "isVisible": true,
+              "version": 1,
+              "parentId": "0",
+              "labelAlignment": "left",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "responsiveBehavior": "fill",
+              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+              "maxDynamicHeight": 9000,
+              "onOptionChange": "{{storeValue('Genre',)}}",
+              "minDynamicHeight": 4
+            },
+            {
+              "boxShadow": "none",
+              "widgetName": "Select_Song3",
+              "isFilterable": true,
+              "displayName": "Select",
+              "iconSVG": "/static/media/icon.bd99caba5853ad71e4b3d8daffacb3a2.svg",
+              "labelText": "Select Song 3",
+              "searchTags": [
+                "dropdown"
+              ],
+              "topRow": 16,
+              "bottomRow": 23,
+              "parentRowSpace": 10,
+              "labelWidth": 5,
+              "type": "SELECT_WIDGET",
+              "serverSideFiltering": false,
+              "hideCard": false,
+              "defaultOptionValue": "{{ ((options, serverSideFiltering) => ( `None`))(Select_Song3.options, Select_Song3.serverSideFiltering) }}",
+              "animateLoading": true,
+              "parentColumnSpace": 15.0625,
+              "dynamicTriggerPathList": [
+                {
+                  "key": "onOptionChange"
+                }
+              ],
+              "leftColumn": 28,
+              "dynamicBindingPathList": [
+                {
+                  "key": "accentColor"
+                },
+                {
+                  "key": "borderRadius"
+                },
+                {
+                  "key": "options"
+                },
+                {
+                  "key": "defaultOptionValue"
+                }
+              ],
+              "labelPosition": "Top",
+              "options": "{{getSongs.data.map( p => ({label: p.name, value: p.name}))}}",
+              "placeholderText": "Select option",
+              "isDisabled": false,
+              "key": "q6skvezed3",
+              "labelTextSize": "0.875rem",
+              "isRequired": false,
+              "isDeprecated": false,
+              "rightColumn": 48,
+              "dynamicHeight": "FIXED",
+              "widgetId": "y8gfeshy9k",
+              "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+              "minWidth": 450,
+              "isVisible": true,
+              "version": 1,
+              "parentId": "0",
+              "labelAlignment": "left",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "responsiveBehavior": "fill",
+              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+              "maxDynamicHeight": 9000,
+              "onOptionChange": "{{storeValue('Genre',)}}",
+              "minDynamicHeight": 4
+            },
+            {
+              "boxShadow": "none",
+              "widgetName": "Select_Song2",
+              "isFilterable": true,
+              "displayName": "Select",
+              "iconSVG": "/static/media/icon.bd99caba5853ad71e4b3d8daffacb3a2.svg",
+              "labelText": "Select Song 2",
+              "searchTags": [
+                "dropdown"
+              ],
+              "topRow": 16,
+              "bottomRow": 23,
+              "parentRowSpace": 10,
+              "labelWidth": 5,
+              "type": "SELECT_WIDGET",
+              "serverSideFiltering": false,
+              "hideCard": false,
+              "defaultOptionValue": "{{ ((options, serverSideFiltering) => ( `None`))(Select_Song2.options, Select_Song2.serverSideFiltering) }}",
+              "animateLoading": true,
+              "parentColumnSpace": 15.0625,
+              "dynamicTriggerPathList": [
+                {
+                  "key": "onOptionChange"
+                }
+              ],
+              "leftColumn": 6,
+              "dynamicBindingPathList": [
+                {
+                  "key": "accentColor"
+                },
+                {
+                  "key": "borderRadius"
+                },
+                {
+                  "key": "options"
+                },
+                {
+                  "key": "defaultOptionValue"
+                }
+              ],
+              "labelPosition": "Top",
+              "options": "{{getSongs.data.map( p => ({label: p.name, value: p.name}))}}",
+              "placeholderText": "Select option",
+              "isDisabled": false,
+              "key": "q6skvezed3",
+              "labelTextSize": "0.875rem",
+              "isRequired": false,
+              "isDeprecated": false,
+              "rightColumn": 26,
+              "dynamicHeight": "FIXED",
+              "widgetId": "idykoevpn6",
+              "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+              "minWidth": 450,
+              "isVisible": true,
+              "version": 1,
+              "parentId": "0",
+              "labelAlignment": "left",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "responsiveBehavior": "fill",
+              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+              "maxDynamicHeight": 9000,
+              "onOptionChange": "{{storeValue('Genre',)}}",
+              "minDynamicHeight": 4
+            }
+          ]
+        },
+        "layoutOnLoadActions": [
+          [
+            {
+              "id": "Posts_getGenres",
+              "name": "getGenres",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Posts_getSongs",
+              "name": "getSongs",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            }
+          ]
+        ],
+        "layoutOnLoadActionErrors": [],
+        "validOnPageLoadActions": true,
+        "id": "Posts",
+        "deleted": false,
+        "policies": [],
+        "userPermissions": []
+      }
+    ],
+    "userPermissions": [],
+    "policies": [],
+    "isHidden": false
+  },
+  "deleted": false,
+  "gitSyncId": "6441692f0ec28c140c44963c_6441692f0ec28c140c44963e"
+}
