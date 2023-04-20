@@ -15,6 +15,10 @@
     {
       "id": "Posts",
       "isDefault": false
+    },
+    {
+      "id": "Page1",
+      "isDefault": false
     }
   ],
   "viewMode": false,

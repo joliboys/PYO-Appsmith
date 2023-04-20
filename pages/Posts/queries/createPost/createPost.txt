@@ -1,1 +1,1 @@
-{{}}
+{{NEW_POST_FORM.data}}
