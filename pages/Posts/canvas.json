@@ -576,7 +576,7 @@
                       "parentColumnSpace": 7.931640625,
                       "dynamicTriggerPathList": [],
                       "resetOnSubmit": true,
-                      "leftColumn": 3,
+                      "leftColumn": 2,
                       "dynamicBindingPathList": [
                         {
                           "key": "accentColor"
@@ -593,7 +593,7 @@
                       "labelTextSize": "0.875rem",
                       "isRequired": false,
                       "isDeprecated": false,
-                      "rightColumn": 23,
+                      "rightColumn": 22,
                       "dynamicHeight": "FIXED",
                       "widgetId": "8m5dl4jtir",
                       "accentColor": "{{appsmith.theme.colors.primaryColor}}",
