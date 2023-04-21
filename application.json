@@ -2,11 +2,11 @@
   "pages": [
     {
       "id": "Posts",
-      "isDefault": true
+      "isDefault": false
     },
     {
       "id": "Feed",
-      "isDefault": false
+      "isDefault": true
     },
     {
       "id": "Select Route",
