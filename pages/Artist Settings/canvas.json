@@ -384,7 +384,7 @@
                       ],
                       "shouldTruncate": false,
                       "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-                      "text": "Once deleted yout post cannot be recovered.",
+                      "text": "Once deleted your post cannot be recovered.",
                       "key": "yqv0kb2t4z",
                       "isDeprecated": false,
                       "rightColumn": 39,
