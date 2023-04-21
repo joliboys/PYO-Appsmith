@@ -1,7 +1,7 @@
 {
   "pages": [
     {
-      "id": "Posts",
+      "id": "Page 2",
       "isDefault": false
     },
     {
@@ -13,7 +13,11 @@
       "isDefault": false
     },
     {
-      "id": "Posts",
+      "id": "Page 2",
+      "isDefault": false
+    },
+    {
+      "id": "Page 3",
       "isDefault": false
     },
     {

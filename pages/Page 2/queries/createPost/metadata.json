@@ -2,12 +2,12 @@
   "pluginType": "API",
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
-    "name": "getSongs",
+    "name": "createPost",
     "datasource": {
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
       "datasourceConfiguration": {
-        "url": "web:4000/p/songs"
+        "url": "web:4000/p/createpost"
       },
       "invalids": [],
       "messages": [],
@@ -16,7 +16,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Posts",
+    "pageId": "Page 2",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -29,8 +29,9 @@
       ],
       "encodeParamsToggle": true,
       "queryParameters": [],
+      "body": "{{NEW_POST_FORM.data}}",
       "bodyFormData": [],
-      "httpMethod": "GET",
+      "httpMethod": "POST",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
@@ -41,18 +42,24 @@
         "apiContentType": "application/json"
       }
     },
-    "executeOnLoad": true,
-    "dynamicBindingPathList": [],
+    "executeOnLoad": false,
+    "dynamicBindingPathList": [
+      {
+        "key": "body"
+      }
+    ],
     "isValid": true,
     "invalids": [],
     "messages": [],
-    "jsonPathKeys": [],
+    "jsonPathKeys": [
+      "NEW_POST_FORM.data"
+    ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": []
   },
-  "id": "Posts_getSongs",
+  "id": "Page 2_createPost",
   "deleted": false,
-  "gitSyncId": "6441692f0ec28c140c44963c_644181650ec28c140c449675"
+  "gitSyncId": "6441692f0ec28c140c44963c_64417b270ec28c140c449668"
 }
