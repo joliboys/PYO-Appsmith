@@ -1,23 +1,23 @@
 {
   "pages": [
     {
-      "id": "Page 2",
+      "id": "User Settings",
       "isDefault": false
     },
     {
-      "id": "Feed",
+      "id": "PYO Feed",
       "isDefault": true
     },
     {
-      "id": "Page 2",
+      "id": "User Settings",
       "isDefault": false
     },
     {
-      "id": "Page 3",
+      "id": "Artist Settings",
       "isDefault": false
     },
     {
-      "id": "Page 4",
+      "id": "Artist Analytics",
       "isDefault": false
     }
   ],
