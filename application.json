@@ -9,10 +9,6 @@
       "isDefault": true
     },
     {
-      "id": "Select Route",
-      "isDefault": false
-    },
-    {
       "id": "Page 2",
       "isDefault": false
     },
@@ -21,7 +17,7 @@
       "isDefault": false
     },
     {
-      "id": "Page1",
+      "id": "Page 4",
       "isDefault": false
     }
   ],
